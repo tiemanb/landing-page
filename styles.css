@@ -1,0 +1,197 @@
+body{
+    margin:0;
+    padding:0;
+    display:flex;
+    flex-direction:column;
+    min-width:650px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header,.content,.cards,.card,.quoteContainer,.signup,.signup-left{
+    display:flex;
+}
+
+.content{
+    background: rgb(51, 51, 51);
+    color: white;
+    height:180px;
+    padding-left: 15%;
+    padding-right:15%;
+    padding-bottom:100px;
+    padding-top:40px;
+    gap:35px;
+}
+
+.content-header{
+    font-size: xx-large;
+    font-weight:bold;
+    margin:0;
+    padding:0;
+}
+.content-left,.content-right{
+    flex:1 1 0;
+    flex-shrink: 0;
+}
+.content-left button{
+    padding:10px 30px;
+    background-color:rgb(59, 130, 246);
+    border-radius: 7px;
+    border-style: none;
+    font-weight: bold;
+    color:white;
+}
+.content-caption{
+    font-size: small;
+    color:lightgray;
+}
+.content-right img{
+    object-fit: cover;
+    width:100%;
+    height:100%
+}
+
+.header{
+    align-items:center;
+    background:rgb(51, 51, 51);
+    color: white;
+    padding-bottom:50px;
+    padding-left: 15%;
+    padding-right:15%;
+    justify-content: space-between;
+}
+.header-links{
+    display:flex;
+    gap:35px;
+    padding-right:20px;
+}
+.header-links a{
+    padding-top:15px;
+    font-size: small;
+    color: lightgray;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header p{
+    padding-top:15px;
+    margin:0;
+    font-weight:bold;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.info{
+    padding-top:24px;
+    padding-bottom:24px;
+    text-align: center;
+    font-weight: bold;
+    font-size:24px;
+    background-color: rgb(250, 250, 250);
+}
+.cards{
+    background-color: rgb(250, 250, 250);
+    justify-content: center;
+    gap: 80px;
+    margin:0;
+    padding-bottom:80px;
+}
+.card{
+    flex-direction: column;
+    width:100px;
+    align-items: center;
+    font-size:x-small;
+    color:darkgrey;
+}
+.square{
+    display:flex;
+    width:120px;
+    height:120px;
+    border:3px solid  rgb(100, 100, 255);
+    border-radius: 13px;
+    font-size: 13px;
+    align-items: center;
+    justify-content: center;
+}
+.quoteContainer{
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    background-color:lightgrey;
+    padding-left:20%;
+    padding-right:20%;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    font-size:22px;
+    font-weight:100;
+}
+.quote{
+    font-style:italic;
+    margin:0;
+    padding:0;
+}
+
+.quoteName{
+    margin:0;
+    padding:0;
+    padding-right:32px;
+    font-weight:bold;
+    align-self:flex-end;
+}
+
+.signup{
+    background-color:rgb(59, 130, 246);
+    padding:25px;
+    border-radius: 5px;
+    padding-top:50px;
+    padding-bottom:50px;
+    justify-content: center;
+    gap: 150px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:50px;
+    margin-bottom:50px;
+    
+}
+
+.signup-left{
+    color:white;
+    flex-direction: column;
+}
+
+.signup-left p{
+    margin:0;
+    padding:0;
+    flex-wrap:wrap;
+    padding-left:40px;
+}
+.item1{
+    font-weight:bold;
+    font-size:20px;
+}
+.item2{
+    font-weight:120;
+    font-size:18px;
+}
+.buttonContainer{
+    padding:0px;
+    align-self:flex-end;
+    padding-right:30px;
+    flex-shrink:0;
+}
+.buttonContainer button{
+    background-color: rgb(59, 130, 246);
+    color:white;
+    padding-left:25px;
+    padding-right:25px;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-radius: 7px;
+    border-color: white;
+    border:2px solid white;
+}
+.footer{
+    background-color:rgb(51, 51, 51);
+    text-align:center;
+    color:white;
+    font-size:small;
+    font-weight:120;
+    padding:30px;
+}
